@@ -5,3 +5,4 @@ langgraph
 tavily-python
 firecrawl-py
 langchain-openai
+plotly
