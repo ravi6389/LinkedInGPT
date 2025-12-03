@@ -1,0 +1,7 @@
+pandas
+streamlit
+python-dotenv
+langgraph
+tavily-python
+firecrawl-py
+langchain-openai
