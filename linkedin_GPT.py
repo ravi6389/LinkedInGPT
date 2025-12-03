@@ -18,8 +18,8 @@ load_dotenv()
 # AZURE_OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
 # AZURE_OPENAI_DEPLOYMENT = os.getenv("AZURE_OPENAI_DEPLOYMENT")
 
-TAVILY_API_KEY = os.getenv('TAVILY_API_KEY')
-FIRECRAWL_API_KEY = os.getenv('FIRECRAWL_API_KEY')
+TAVILY_API_KEY = st.secrets['TAVILY_API_KEY']
+FIRECRAWL_API_KEY = st.secrets['FIRECRAWL_API_KEY']
 # st.write(TAVILY_API_KEY)
 # st.write(FIRECRAWL_API_KEY)
 
@@ -1431,4 +1431,5 @@ if run_btn and query.strip():
     with tab_debug:
         st.markdown("### 🐞 Full JSON Output")
         st.json(result)
+
 
