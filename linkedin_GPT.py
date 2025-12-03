@@ -1206,7 +1206,7 @@ graph = graph.compile()
 # STREAMLIT UI — HYBRID HUMANTIC LAYOUT (FINAL)
 # =====================================================================
 
-st.set_page_config(page_title="Humantic AI Clone", layout="wide")
+st.set_page_config(page_title="LinkedIn GPT", layout="wide")
 st.title("🧠 LinkedIN GPT - No crawling of LinkedIN!!!")
 st.markdown("Works on publicly available data")
 
@@ -1431,5 +1431,6 @@ if run_btn and query.strip():
     with tab_debug:
         st.markdown("### 🐞 Full JSON Output")
         st.json(result)
+
 
 
